@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <!--  1
+    <p id="par">Параграф</p>
+    -->
+
+
+
+    <!--  2
+    <p>Введите число от 1 до 99</p>
+
+    <input type="text" id="number">
+
+    <button type="button" onclick="myFunction()">Проверить</button>
+
+    <p id="result"></p>
+    -->
+
+
+
+
+    <!--  3
+    <img src="img/women.jpg" alt="image" id="image" onclick="changeImage()">
+    -->
+
+
+    <!--  4
+    вызов функции и вывод решения на место параграфа
+    <p id="paragraph">Текст</p>
+
+    <button type="button" onclick="myFunction()">Вызвать функцию</button>
+    -->
+
+
+    
+
+
+    <script>
+
+      /* 1
+      document.getElementById('par').innerHTML = "Hello world!";//изменение содержимого
+      document.getElementById('par').style.fontSize = '24px';//изменение стиля
+      */
+
+
+
+      /* 2
+      //Проверка введённого значения
+      function myFunction(){
+        let number, result;
+
+        number = document.getElementById('number').value;
+
+        if(isNaN(number) || number < 1 || number > 99){
+          result = "Число не верно!";
+        } else{
+          result = "Число верно";
+        }
+        document.getElementById('result').innerHTML = result;
+      }
+      */
+
+
+
+      /* 3
+      //смена фото при клике
+      function changeImage(){
+        let image = document.getElementById('image');
+
+        if (image.src.match("img/women.jpg")) {
+          image.src = "img/women2.jpg";
+        } else {
+          image.src = "img/women.jpg";
+        }
+      }
+      */
+
+      /* 4
+      Вывод результата на место параграфа
+      function myFunction(){
+        let a = 11;
+        let b = 20;
+        let c = a + b;
+        document.getElementById('paragraph').innerHTML = c;
+      }
+      */
+    </script>
+  </body>
+</html>
