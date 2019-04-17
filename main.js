@@ -31,3 +31,7 @@ alert(ROOM_TEMP_C);//вывод константы
 
 
 //.................Базовые типы и объекты...........................
+const dialog = "Sam looked up and said "don't do that!" to Мах.";
+//это приведёт к ошибке, так как нужно экранировать кавычки
+const dialog1 = "he looked up and said \"don't do that!\" to Max.";
+//пример экранирования
